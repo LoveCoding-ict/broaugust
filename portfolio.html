@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <!-- header section with navigation -->
+     <header>
+        <nav>
+            <div class="logo">KH Developer</div>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Project</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+     </header>
+    <!-- home section -->
+     <section class="home">
+        <div>
+            <h1>Welcome to My Portfolio</h1>
+            <a href="#about" class="btn">Explore More</a>
+        </div>
+     </section>
+    <!-- about section -->
+     <section id="about">
+        <h2>About Me</h2>
+        <div>
+            <div class="circle-img"></div>
+        </div>
+        <p>I am a passionate developer and designer.
+            i specialize in front-end development with a focus on creating smooth and interective user interfaces. with expertise in HTML,CSS, JAVASCRIPT,I build responsive websites and web application that are both visually appealing and functional.
+        </p>
+     </section>
+    <!-- project section -->
+     <section id="projects">
+        <h2>My Projects</h2>
+        <div class="project-container">
+            <!-- project1 -->
+            <div class="project" onclick="toggleProjectDetail('project1')">
+                <h3>Project1</h3>
+                <p>A beautiful landing page</p>
+                <div id="project1" class="project-detail">
+                    <p>
+                        Project1 details:This Project invilves creating a visually apealling and responsive landing page for a businese.
+                    </p>
+                </div>
+            </div>
+            <!-- project2 -->
+             <div class="project" onclick="toggleProjectDetail('project2')">
+                <h3>Project2</h3>
+                <p>An Interactive web app</p>
+                <div id="project2" class="project-detail">
+                    <p>Project2 Details: This project is an interective web app designed with Javascript and CSS animation for a fun user experience.</p>
+                </div>
+             </div>
+             <!-- project3 -->
+              <div class="project" onclick="toggleProjectDetail('project3')">
+                <h3>Porject 3</h3>
+                <p>E-commerce Website</p>
+                <div id="project3" class="project-detail">
+                    <p>
+                        Project3 Details: This Project is an e-commerce website with a modern design and an intuitive shopping experience
+                    </p>
+                </div>
+              </div>
+
+            
+        </div>
+     </section>
+    <!-- contact section -->
+     <section id="contact">
+        <h2>Contact me</h2>
+        <form class="contact-form">
+            <input type="text" placeholder="Your Name :" required>
+            <input type="email" placeholder="Your Email :" required>
+            <textarea  placeholder="Your Message :" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+     </section>
+     <!-- footer section -->
+      <footer>
+        <p align="center">&copy;2025 KH Developer. All Rights Reserved.</p>
+      </footer>
+</body>
+</html>

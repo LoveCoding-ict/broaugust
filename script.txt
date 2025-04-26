@@ -1,0 +1,14 @@
+			Three steps for creating the static portfolio
+			👉portfolio.html
+				✔Navigate in header
+				✔home section 
+				✔about section
+				✔Project Section 
+					💘Project1
+					💘Project2
+					💘Project3
+			👉style.css
+				✔responsive design
+			👉script.js
+				✔Function toggle project details 
+
